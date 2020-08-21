@@ -1,4 +1,11 @@
 // write your createStore function here
+function createStore(reducer){
+  let state; 
+
+  function dispatch(){
+    
+  }
+}
 
 function candyReducer(state = [], action) {
   switch (action.type) {
